@@ -4,7 +4,7 @@ pref("general.config.filename", "mozilla.cfg");
 pref("general.config.obscure_value", 0);
 
 //Processus.
-//pref("dom.ipc.processCount", 100);
+//pref("dom.ipc.processCount", 10);
 
 //Cache disk.
 pref("browser.cache.disk.capacity", 0);
@@ -38,11 +38,6 @@ pref("privacy.resistFingerprinting", true);
 pref("privacy.trackingprotection.enabled", true);
 pref("network.cookie.cookieBehavior", 1);
 pref("privacy.donottrackheader.enabled", true);
-
-//Envoyer rapport de plantage.
-pref("browser.crashReports.unsubmittedCheck.enabled", true);
-pref("browser.crashReports.unsubmittedCheck.autoSubmit2", true);
-//pref("browser.crashReports.unsubmittedCheck.chancesUntilSuppress", 4);
 
 //Préchargement des liens.
 pref("network.prefetch-next", false);

@@ -4,7 +4,7 @@ pref("general.config.filename", "mozilla.cfg");
 pref("general.config.obscure_value", 0);
 
 //Processus.
-//pref("dom.ipc.processCount", 10);
+pref("dom.ipc.processCount", 10);
 
 //Cache disk.
 pref("browser.cache.disk.capacity", 0);

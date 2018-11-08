@@ -56,3 +56,8 @@ pref("geo.enabled", false);
 
 //Ouvrir les marque page dans un nouvelle onglet.
 pref("browser.tabs.loadBookmarksInTabs", "true");
+
+//Media. ####### TEST #######
+pref("media.memory_cache_max_size", 0);
+pref("media.memory_caches_combined_limit_kb", 0);
+pref("media.memory_caches_combined_limit_pc_sysmem", 0);

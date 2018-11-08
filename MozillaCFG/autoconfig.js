@@ -61,3 +61,6 @@ pref("browser.tabs.loadBookmarksInTabs", "true");
 pref("media.memory_cache_max_size", 0);
 pref("media.memory_caches_combined_limit_kb", 0);
 pref("media.memory_caches_combined_limit_pc_sysmem", 0);
+pref("media.cache_readahead_limit", 0);
+pref("media.cache_resume_threshold", 0);
+pref("media.cache_size", 0);

@@ -1,20 +1,17 @@
-//https://vive-gnulinux.fr.cr/securiser-firefox/
-
 pref("general.config.filename", "mozilla.cfg");
 pref("general.config.obscure_value", 0);
 
-//Protection Fingerprint
-pref("privacy.resistFingerprinting", true);
+// Performance
+pref("layout.frame_rate.precise", true);
+pref("webgl.force-enabled", true);
+pref("layers.acceleration.force-enabled", true);
+pref("layers.offmainthreadcomposition.enabled", true);
+pref("layers.offmainthreadcomposition.async-animations", true);
+pref("layers.async-video.enabled", true);
+pref("html5.offmainthread", true);
 
-//Vie privée.
-pref("privacy.trackingprotection.enabled", true);
-pref("network.cookie.cookieBehavior", 1);
-pref("privacy.donottrackheader.enabled", true);
-
-//ouvrir les marque page dans un nouvelle onglet.
-pref("browser.tabs.loadBookmarksInTabs", "true");
-
-//Cache disk
+// Memory reduction
+// Cache disk
 pref("browser.cache.disk.capacity", 0);
 pref("browser.cache.disk.enable", false);
 pref("browser.cache.disk.filesystem_reported", 0);
@@ -29,14 +26,19 @@ pref("browser.cache.disk.smart_size.enabled", false);
 pref("browser.cache.disk.smart_size.first_run", false);
 pref("browser.cache.disk.smart_size.use_old_max", false);
 pref("browser.cache.disk_cache_ssl", false);
-
-//Cache memory
-pref("browser.cache.memory.enable", false);
+// Cache memory
 pref("browser.cache.memory.capacity", 0);
+pref("browser.cache.memory.enable", false);
 pref("browser.cache.memory.max_entry_size", 0);
-
-//Cache offline
+// Cache offline
 pref("browser.cache.offline.capacity", 0);
 pref("browser.cache.offline.enable", false);
 pref("browser.cache.offline.insecure.enable", false);
-pref("browser.cache.offline.max_entry_size", 0);
+
+pref("browser.sessionhistory.max_entries", 5);
+pref("browser.sessionstore.max_tabs_undo", 5);
+pref("browser.tabs.animate", false);
+pref("browser.download.animateNotifications", false);
+pref("config.trim_on_minimize", true);
+pref("", );
+pref("", );

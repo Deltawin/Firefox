@@ -40,5 +40,3 @@ pref("browser.sessionstore.max_tabs_undo", 5);
 pref("browser.tabs.animate", false);
 pref("browser.download.animateNotifications", false);
 pref("config.trim_on_minimize", true);
-pref("", );
-pref("", );

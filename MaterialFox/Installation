@@ -1,0 +1,6 @@
+toolkit.legacyUserProfileCustomizations.stylesheets = true
+svg.context-properties.content.enabled = true
+
+browser.tabs.tabClipWidth = 83
+materialFox.reduceTabOverflow = true
+security.insecure_connection_text.enabled = true

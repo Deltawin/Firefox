@@ -1,0 +1,3 @@
+layout.css.servo.enabled = true
+network.security.esni.enabled = true
+fission.autostart = true

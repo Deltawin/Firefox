@@ -1,2 +1,2 @@
-media.cache_readahead_limit = 1000
-media.cache_resume_threshold = 1000
+media.av1.enabled = false
+media.av1.use-dav1d = false

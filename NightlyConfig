@@ -1,2 +1,2 @@
-media.video_stats.enabled = false
-gfx.webrender.all = true
+network.buffer.cache.count	100	
+network.buffer.cache.size	100000

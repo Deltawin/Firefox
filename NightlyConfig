@@ -1,2 +1,1 @@
-media.av1.enabled = false
-media.av1.use-dav1d = false
+media.video_stats.enabled = false

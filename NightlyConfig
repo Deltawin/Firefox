@@ -1,3 +1,2 @@
-layout.css.servo.enabled = true
-network.security.esni.enabled = true
-fission.autostart = true
+media.cache_readahead_limit = 1000
+media.cache_resume_threshold = 1000
